@@ -5,6 +5,8 @@ from core import views
 
 urlpatterns = [
     path('', views.index),
-    path('cadastro', views.cadastro),
+    path('cadastro/', views.cadastro),
+    path('login/', views.login),
+
     path('admin/', admin.site.urls),
 ]
